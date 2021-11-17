@@ -32,7 +32,7 @@ namespace nz_vs2019_gitHubDemo999
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("<h1>Hello World!</h1>");
                 });
             });
         }
